@@ -21,6 +21,8 @@ gem 'jquery-rails'
 group :test do
   gem 'rspec-rails', '2.8.1'
   gem 'capybara', '1.1.2'
+  gem 'guard-spork', '0.3.2'
+  gem 'spork', '0.9.0'
 
   # System dependent gems (Windows)
   gem 'rb-fchange', '0.0.5'
