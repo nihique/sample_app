@@ -1,9 +1,10 @@
 source 'https://rubygems.org'
 
 gem 'rails', '3.2.1'
+gem 'pg', '0.12.2'
 
 group :development do
-  gem 'sqlite3', '1.3.5'
+  #gem 'sqlite3', '1.3.5'
   gem 'rspec-rails', '2.8.1'
 end
 
@@ -19,8 +20,4 @@ gem 'jquery-rails'
 
 group :test do
   gem 'capybara', '1.1.2'
-end
-
-group :production do
-  gem 'pg', '0.12.2'
 end
