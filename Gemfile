@@ -4,8 +4,8 @@ gem 'rails', '3.2.1'
 gem 'pg', '0.12.2'
 
 group :development do
-  #gem 'sqlite3', '1.3.5'
   gem 'rspec-rails', '2.8.1'
+  gem 'guard-rspec', '0.5.5'
 end
 
 # Gems used only for assets and not required
@@ -19,5 +19,19 @@ end
 gem 'jquery-rails'
 
 group :test do
+  gem 'rspec-rails', '2.8.1'
   gem 'capybara', '1.1.2'
+
+  # System dependent gems (Windows)
+  gem 'rb-fchange', '0.0.5'
+  gem 'rb-notifu', '0.0.4'
+  gem 'win32console', '1.3.0'
+
+  # System dependent gems (Linux)
+  # gem 'rb-inotify', '0.8.8'
+  # gem 'libnotify', '0.5.9'
+
+  # System dependent gems (Mac OS X)
+  # gem 'rb-fsevent', '0.4.3.1', :require => false
+  # gem 'growl', '1.0.3'
 end
