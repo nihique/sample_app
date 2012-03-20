@@ -1,6 +1,7 @@
 @import "bootstrap";
 
 
+
 /* universal */
 
 html {
@@ -28,6 +29,7 @@ textarea {
 }
 
 
+
 /* typography */
 
 h1, h2, h3, h4, h5, h6 {
@@ -51,6 +53,7 @@ h2 {
 }
 
 
+
 /* header */
 
 #logo {
@@ -65,3 +68,31 @@ h2 {
   line-height: 1;
 }
 
+
+
+/* footer */
+
+footer {
+  margin-top: 45px;
+  padding-top: 5px;
+  border-top: 1px solid #eaeaea;
+  color: #999;
+}
+
+footer a:hover {
+  color: #222;
+}
+
+footer small {
+  float: left;
+}
+
+footer ul {
+  float: right;
+  list-style: none;
+}
+
+footer ul li {
+  float: left;
+  margin-left: 10px;
+}
