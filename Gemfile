@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'rails', '3.2.1'
-gem 'pg', '0.12.2'
+gem 'pg'
 gem 'bootstrap-sass', '2.0.0'
 gem 'bcrypt-ruby', '3.0.1'
 
@@ -28,15 +28,15 @@ group :test do
   gem 'spork', '0.9.0'
 
   # System dependent gems (Windows)
-  gem 'rb-fchange', '0.0.5'
-  gem 'rb-notifu', '0.0.4'
-  gem 'win32console', '1.3.0'
+  # gem 'rb-fchange', '0.0.5'
+  # gem 'rb-notifu', '0.0.4'
+  # gem 'win32console', '1.3.0'
 
   # System dependent gems (Linux)
   # gem 'rb-inotify', '0.8.8'
   # gem 'libnotify', '0.5.9'
 
   # System dependent gems (Mac OS X)
-  # gem 'rb-fsevent', '0.4.3.1', :require => false
-  # gem 'growl', '1.0.3'
+  gem 'rb-fsevent'
+  gem 'growl', '1.0.3'
 end
